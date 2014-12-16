@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RValidate", "RValidate\RValidate.csproj", "{CC9652D2-24BE-4348-87D3-DB5620658AA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RValidationUnit", "RValidationUnit\RValidationUnit.csproj", "{168BC49D-7A49-42E5-8702-133F6A68E190}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC9652D2-24BE-4348-87D3-DB5620658AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9652D2-24BE-4348-87D3-DB5620658AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9652D2-24BE-4348-87D3-DB5620658AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9652D2-24BE-4348-87D3-DB5620658AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168BC49D-7A49-42E5-8702-133F6A68E190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168BC49D-7A49-42E5-8702-133F6A68E190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168BC49D-7A49-42E5-8702-133F6A68E190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168BC49D-7A49-42E5-8702-133F6A68E190}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
