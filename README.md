@@ -11,7 +11,7 @@ Now you can solve problem or get new one with this library. Just specify http me
 in attribute ctor on which you want to validate model, put RValidate attr on controller 
 and disable standart model validation.
 
-PM> Install-Package RValidate
+**PM> Install-Package RValidate**
 
 Three simple steps:
 ==================
@@ -50,31 +50,31 @@ Thats all. It works like DataAnnotation attributes.
 Attributes
 ==========
 
-RCompareAttribute - Compares property with another one. Less, More, Equal
+**RCompareAttribute** - Compares property with another one. Less, More, Equal
 
-RCreditCardAttribute - Validate that string projection of property is a valid mod10 credit card
+**RCreditCardAttribute** - Validate that string projection of property is a valid mod10 credit card
 
-RDateInRangeAttribute - Validate, that property in date range
+**RDateInRangeAttribute** - Validate, that property in date range
 
-RDateTimeAttribute - Validate, that stringified projection of property can be parsed as DateTime type
+**RDateTimeAttribute** - Validate, that stringified projection of property can be parsed as DateTime type
 
-REmailAddressAttribute -  Validate, that stringified projection of property is valid email address
+**REmailAddressAttribute** -  Validate, that stringified projection of property is valid email address
 
-RMaxLengthAttribute - Validate, that property have length less or equal defined. Property that verified, should be castable                       to IEnumerable interface (strings, collections)
+**RMaxLengthAttribute** - Validate, that property have length less or equal defined. Property that verified, should be castable                       to IEnumerable interface (strings, collections)
 
-RMinLengthAttribute - Validate, that property have length more or equal defined. Property that verified, should be castable                       to IEnumerable interface (strings, collections)
+**RMinLengthAttribute** - Validate, that property have length more or equal defined. Property that verified, should be castable                       to IEnumerable interface (strings, collections)
 
-RPasswordAttribute - Validates that property projection to string have valid password strength
+**RPasswordAttribute** - Validates that property projection to string have valid password strength
 
-RRangeAttribute -  Validate, that property projection to string and converted to numeric in specified range
+**RRangeAttribute** -  Validate, that property projection to string and converted to numeric in specified range
 
-RRegularExpressionAttribute - Validates, that proerty string projection match pattern
+**RRegularExpressionAttribute** - Validates, that proerty string projection match pattern
 
-RRequiredAttribute -  Validates, that property have no default value of property type
+**RRequiredAttribute** -  Validates, that property have no default value of property type
 
-RRequiredEnumerableAttribute - Validates, that collection should have at least one member and not be null
+**RRequiredEnumerableAttribute** - Validates, that collection should have at least one member and not be null
 
-RUrlAttribute - Validates, that string projection of property is valid URL
+**RUrlAttribute** - Validates, that string projection of property is valid URL
 
 
 License
