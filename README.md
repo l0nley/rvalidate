@@ -26,7 +26,7 @@ public class SimpleModel {
   public string Password { get;set; }
 }
 ```
-2. Add attribute to API controller
+2. Add attribute to API controller or controller method.
 ```csharp
 [RValidate]
 public class MyController: ApiController
