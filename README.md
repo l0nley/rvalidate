@@ -11,7 +11,7 @@ Now you can solve problem or get new one with this library. Just specify http me
 in attribute ctor on which you want to validate model, put RValidate attr on controller 
 and disable standart model validation.
 
-
+PM> Install-Package RValidate
 
 Three simple steps:
 ==================
